@@ -17,7 +17,7 @@
 }
 
 .logo::before{
-	content: "web ";
+	content: "web";
 	color: #3D37F1;
 	text-transform: capitalize;
 	font-size: 32px;
@@ -127,9 +127,9 @@ li{
 	width: 700px;
 	text-align: center;
 	margin-left: auto;
-  	margin-right: auto;
-  	margin-top: 20px;
-  	font-family: "Roboto", sans-serif;
+  margin-right: auto;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 
@@ -234,15 +234,15 @@ li{
 	width: 328px;
 	text-align: center;
 	margin-left: auto;
-  	margin-right: auto;
-  	color: white;
-  	font-family: "Roboto", sans-serif;
-  	margin-top: 15px;
-  	line-height: 1.5;
+  margin-right: auto;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+  line-height: 1.5;
 }
 
 
-.box-read-more{
+/*.box-read-more{
 	margin-top:30px;
 	border: 2px solid white ;
 	height: 45px;
@@ -252,25 +252,30 @@ li{
 	justify-content: center;
 	align-items: center;
 	margin-left: auto;
-  	margin-right: auto;
+  margin-right: auto;
 
-}
-
-.box-read-more:hover{
-	color: #4B647E;
-	background-color: white;
-	cursor: pointer;
-
-}
+}*/
 
 .read-more{
+	margin-top:30px;
+	border: 2px solid white ;
+	height: 45px;
+	width: 131px;
+	border-radius: 23px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+  margin-right: auto;
 	font-size: 15px;
 	color: white;
 	font-family: "Roboto", sans-serif;
-
+	transition: all 0.5s;
 }
 
 .read-more:hover{
+	border: none;
+	background-color: white;
 	color: #4B647E;
 	
 }
